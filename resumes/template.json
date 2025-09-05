@@ -1,0 +1,178 @@
+{
+  "name": "Razi Asghar",
+  "profile_title": "Lead Data Engineer",
+  "email": "razi.asghar@gmail.com",
+  "phone": "5164529798",
+  "location": "Farmingdale, New York, 11735",
+  "linkedin": null,
+  "github": null,
+  "summary": "Innovative and results-driven Lead Data Engineer with 9+ years of expertise in designing, building, and optimizing enterprise-grade data platforms across GCP, AWS, and Azure. Proven track record in architecting scalable ETL/ELT pipelines, orchestrating complex workflows, and delivering high-performance data lakes, warehouses, and streaming systems. Adept at leveraging modern frameworks such as Apache Spark, Apache Beam, Kafka, Airflow, and Databricks to process multi-terabyte datasets with speed and accuracy.",
+  "education": [
+    {
+      "institution": "University of California",
+      "location": "Los Angeles (UCLA)",
+      "degree": "Bachelor's Degree in Computer Science",
+      "date": "2012 - 2016"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Data Engineer",
+      "organization": "Thoughtworks",
+      "location": "Remote",
+      "date": "Dec 2022 - Current",
+      "descriptions": [
+        "Led end-to-end migration from on-prem to GCP and AWS, moving 15 TB of operational and tracking data, cutting report generation time from 6 hours to under 1 hour.",
+        "Designed secure, compliant cloud architectures across GCP IAM, AWS IAM, and Azure Active Directory, implementing encryption policies and regional residency controls to meet GDPR and SOC 2 compliance.",
+        "Built a centralized data staging, cataloging, and discovery framework using Dataplex, AWS Glue Data Catalog, and Azure Purview, enabling 100% lineage tracking and reducing onboarding time for new datasets by 40%.",
+        "Architected and documented source-to-sink pipelines handling 50M+ daily network events using Azure Event Hubs, AWS Kinesis, and GCP Pub/Sub.",
+        "Built high-volume batch and streaming ETL pipelines with Dataflow, Apache Beam, Dataproc, AWS EMR, and Azure Data Factory, achieving a 30% throughput improvement.",
+        "Integrated 12+ telemetry data sources across cloud providers, implementing mechanized cleansing with PySpark and AWS Lambda, reaching 98% data accuracy.",
+        "Mentored 4 junior engineers in GCP Composer, AWS Step Functions, and Azure Synapse Pipelines orchestration best practices."
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "organization": "Thoughtworks",
+      "location": "Remote",
+      "date": "Jul 2020 - Nov 2022",
+      "descriptions": [
+        "Developed BigQuery and Amazon Redshift materialized views, pre-calculated metrics, and optimized SQL logic, reducing dashboard load times by 65% for compliance and risk teams.",
+        "Prepared feature-rich datasets for ML pipelines in Vertex AI, AWS SageMaker, and Azure Machine Learning, enabling fraud detection models with 92% precision.",
+        "Established governed data-sharing protocols using GCP Analytics Hub, AWS Lake Formation, and Azure Data Share to ensure secure data exchange.",
+        "Integrated Looker, Power BI, and Tableau with data warehouses, delivering 30+ executive dashboards across finance and operations.",
+        "Tuned compute resource allocation using BigQuery slot reservations, AWS Redshift Spectrum concurrency scaling, and Azure Synapse DWU optimization, cutting cloud costs by 25%.",
+        "Automated 150+ recurring ETL jobs with Cloud Composer DAGs, AWS Step Functions, and Azure Data Factory pipelines, reducing manual intervention by 95%.",
+        "Led cross-functional squads of analysts, engineers, and ML specialists to deliver quarterly analytics releases.",
+        "Coordinated with external data vendors across AWS Marketplace and Azure Data Market for integration support."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "organization": "10Pearls",
+      "location": "Remote",
+      "date": "Sep 2016 - Jun 2020",
+      "descriptions": [
+        "Designed and deployed Python-based ETL frameworks to ingest, transform, and load multi-TB datasets from APIs, RDBMS, and flat files into AWS S3, Azure Data Lake Storage, and GCP Cloud Storage.",
+        "Built CI/CD workflows for data pipeline deployment using Jenkins, AWS CodePipeline, and Azure DevOps, reducing release cycle time from 2 weeks to 3 days.",
+        "Implemented systematized data quality checks with PyTest, Great Expectations, and custom Python scripts running in AWS Lambda and Azure Functions, improving defect detection by 80%.",
+        "Developed streaming ingestion using AWS Kinesis Data Streams, Azure Event Hubs, and GCP Pub/Sub for real-time transaction processing.",
+        "Automated compliance reporting for multiple regulatory bodies by integrating Python scripts with AWS S3, Azure Blob Storage, and BigQuery exports.",
+        "Collaborated with cloud architects to align ETL designs with enterprise security frameworks."
+    ]
+    }
+  ],
+  "projects" : [
+  {
+   "name": "LogiTrack Modernization",
+   "technologies": "Cybersecurity Analytics Platform",
+   "date": "",
+   "descriptions": [
+    "Migrated 15 TB of logistics operational data from on-prem to Google BigQuery and AWS Redshift, engineered real-time event pipelines with Kafka, AWS Kinesis, and GCP Pub/Sub to cut latency from 6 hours to 2 minutes, implemented Dataplex and Lake Formation governance for GDPR/SOC 2 compliance, and delivered Looker dashboards that improved shipment ETA accuracy by 25%."
+   ]
+  },
+  {
+   "name": "CyberShield Data Mesh",
+   "technologies": "PyTorch, MONAI, OpenCV",
+   "date": "",
+   "descriptions": [
+    "Architected a cross-cloud data mesh spanning Azure Synapse, AWS S3, and GCP BigQuery to process 50M+ daily security events, built high-throughput batch/streaming pipelines with Apache Beam, Dataflow, Databricks, and Azure Data Factory, integrated 12+ telemetry sources with computerized PySpark cleansing for 98% accuracy, and influenced client security teams through quarterly architecture reviews."
+   ]
+  },
+  {
+   "name": "FinScope AI Analytics",
+   "technologies": "PyTorch, MONAI, OpenCV",
+   "date": "",
+   "descriptions": [
+    "Developed cross-cloud fraud detection pipelines with Vertex AI, AWS SageMaker, and Azure ML, boosted model precision to 92%, created optimized materialized views in BigQuery and Redshift for 65% faster dashboards, mechanized 150+ compliance jobs with Cloud Composer, AWS Step Functions, and Azure Data Factory, and established governed data-sharing protocols via Analytics Hub and Azure Data Share for secure regulatory access."
+   ]
+  }
+  ],
+  "skills": {
+  "Frameworks": [
+    "Apache (Spark, Beam, Flink, Storm)",
+    "Hadoop Ecosystem (HDFS, MapReduce, Hive, Pig)",
+    "Presto",
+    "Delta Lake",
+    "Iceberg",
+    "Hudi"
+  ],
+  "Databases": [
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Google Bigtable",
+    "Azure Synapse Analytics",
+    "Elasticsearch"
+  ],
+  "Data Lakes & Warehousing": [
+    "Snowflake",
+    "Databricks",
+    "Google Dataplex",
+    "AWS Lake Formation",
+    "Azure Purview",
+    "BigLake"
+  ],
+  "Messaging": [
+    "Apache Kafka",
+    "Kafka Streams",
+    "AWS Kinesis",
+    "Azure Event Hubs",
+    "RabbitMQ"
+  ],
+  "Data Processing": [
+    "PySpark",
+    "Pandas",
+    "Dask",
+    "AWS Glue",
+    "Talend",
+    "Informatica",
+    "SSIS",
+    "Google Data Fusion"
+  ],
+  "ML Analytics Integration": [
+    "Vertex AI",
+    "AWS SageMaker",
+    "Azure Machine Learning",
+    "H2O.ai",
+    "MLlib"
+  ],
+  "AWS" : [
+    "Lambda", 
+    "S3", 
+    "EC2",
+    "EMR", 
+    "Redshift", 
+    "Glue", 
+    "Kinesis",
+    "CloudFormation"
+  ],
+  "GCP" : [
+    "BigQuery", 
+    "Dataflow",
+    "Dataproc",
+    "Pub/Sub", 
+    "Dataplex"
+  ],
+  "Azure" : [
+    "Synapse", 
+    "Data Factory", 
+    "Event Hubs",
+    "Data Lake"
+  ],
+  "Cloud Platforms & DevOps": [
+    "Terraform",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "GitHub Actions",
+    "GitLab CI/CD"
+  ],
+  "Soft Skills": [
+    "Mentorship & Team Leadership",
+    "Client Requirement Gathering",
+    "Agile/Scrum"
+  ]
+ }
+
+}
