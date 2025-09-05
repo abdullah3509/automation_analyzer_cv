@@ -12,8 +12,8 @@ load_dotenv()
 
 # --- Configuration ---
 RESUMES_DIR = "resumes"
-PDF_GENERATOR_ENDPOINT =os.getenv("OPENAI_API_KEY") 
-OPENAI_API_KEY = os.getenv("PDF_GENERATOR_ENDPOINT")
+PDF_GENERATOR_ENDPOINT =os.getenv("PDF_GENERATOR_ENDPOINT") 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 class ResumeApp:
     def __init__(self, root):
